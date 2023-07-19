@@ -1,8 +1,13 @@
+import {QueryClientProvider} from 'react-query'
+import {queryClient} from './libs/reactQuery'
+
 const App = () => {
   return (
-    <div>
-      <h1>Hello, World</h1>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <div>
+        <h1>Hello, World</h1>
+      </div>
+    </QueryClientProvider>
   )
 }
 
