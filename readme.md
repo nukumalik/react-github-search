@@ -2,6 +2,10 @@
 
 Welcome to the GitHub User Explorer App! This is a React-based web application that allows you to search for GitHub users, view user repositories details, and effortlessly browse through their repositories with the provided infinite loading feature. This is open source repo, feel free to clone and fork. Happy coding! 😊
 
+please follow this link for the [**Live Demo**](https://nukumalik.github.com/react-github-search)
+
+![Alt text](public/demo.gif)
+
 ### Key Features
 
 - **GitHub User Search:** Quickly find GitHub users and view their repositories.
