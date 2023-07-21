@@ -1,12 +1,11 @@
 import {QueryClientProvider} from 'react-query'
 import {queryClient} from './libs/reactQuery'
+import {UserList} from './components/UserList'
 
 const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
-      <div>
-        <h1>Hello, World</h1>
-      </div>
+      <UserList />
     </QueryClientProvider>
   )
 }
